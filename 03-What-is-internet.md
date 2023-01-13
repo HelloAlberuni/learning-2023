@@ -1,8 +1,8 @@
-### What is internet and how does it work ###
+# What is internet and how does it work
 
 The internet is a global network of interconnected computers and servers that communicate with each other using standardized protocols. It allows users to access and share information, communicate with each other, and perform a wide range of other tasks.
 
-# Here is a brief overview of how the internet works:
+### Here is a brief overview of how the internet works: ###
 
 - Data is broken down into packets: When you send or receive information over the internet, it is first broken down into small packets of data. Each packet contains a portion of the original data as well as routing information that tells it where to go.
 
