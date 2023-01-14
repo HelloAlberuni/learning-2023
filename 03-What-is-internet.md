@@ -15,3 +15,7 @@ The internet is a global network of interconnected computers and servers that co
 - DNS: To access a website or a specific page, you need to know the IP address of the server where it is hosted. The Domain Name System (DNS) is a service that translates domain names (like www.example.com) into IP addresses (like 216.58.192.174), so that the browser can find the correct server.
 
 - HTTP: Once the browser has the IP address of the server, it can request the specific webpage using the Hypertext Transfer Protocol (HTTP). The server responds by sending the requested webpage to the browser, which then renders it on the user's device.
+
+When you're browsing the internet, you're likely interacting with hypertext all the time. For example, when you see a word or phrase underlined and in blue color, that's a hyperlink, when you click on it, it will take you to another webpage.
+
+In simple terms, Hypertext is the way text can contain links to other text which allows users to navigate and access to related information easily.
