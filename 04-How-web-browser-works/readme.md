@@ -1,4 +1,4 @@
-# 02-How-web-browser-works
+# How web browser works
 A web browser is a software application that allows users to access, view, and interact with websites and other online resources. Here's a more detailed overview of how a web browser works:
 
 - The user opens the web browser on their device, such as a computer or mobile phone.
