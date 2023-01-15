@@ -1,14 +1,14 @@
-***What?***
+***What?***  
 In general, a manifest is a document or file that lists or declares something clearly and explicitly.
 
 In a JavaScript project, a manifest file is a file that contains metadata and configuration information about the project. It typically contains information such as the project's name, version, author, and dependencies. 
 
-***Why?*** 
+***Why?***  
 The manifest file is used by the project's build tool or package manager to determine how to build and distribute the project.
 
 One of the most common manifest file format used in javascript projects is the package.json file. This file is used by npm (Node Package Manager) which is the default package manager for JavaScript projects.
 
-***How?*** 
+***How?***  
 Here is an example of the structure of a package.json file:
 
 ```
