@@ -2,7 +2,7 @@
 In PHP, an interface is a contract that defines a set of methods that a class must implement. It is similar to an abstract class, in that it defines a set of methods that must be implemented, but it cannot contain any implementation code. It is used to specify a common set of methods that multiple classes should have.
 
 ### How? can we use it
-```
+```php
 interface MyInterface {
   public function doSomething();
   public function doSomethingElse();
