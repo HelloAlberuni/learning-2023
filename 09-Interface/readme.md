@@ -11,7 +11,7 @@ interface MyInterface {
 This interface defines two methods: doSomething() and doSomethingElse(). If you have multiple classes that need to have these two methods, you can have them all implement the MyInterface interface. This way, you only need to define the methods once, in the interface, rather than repeating the definitions in each class.
 
 Here is an example of two classes that implement the MyInterface interface:
-```
+```php
 class Class1 implements MyInterface {
   public function doSomething() {
     // implementation of doSomething() goes here
@@ -42,7 +42,7 @@ When a class implements an interface, it must provide an implementation for all 
 However, even though you need to write the code for the method implementations in each class, using an interface can still help you to avoid repeating yourself. This is because the interface defines the method signatures (the names, return types, and arguments) in a single place, which can help you to ensure consistency across your classes.
 
 For example, consider the following interface:
-```
+```php
 interface MyInterface {
   public function doSomething(int $arg1, string $arg2): bool;
 }
@@ -51,7 +51,7 @@ interface MyInterface {
 This interface defines a single method called doSomething() that takes two arguments: an int and a string. It also specifies that the method returns a bool.
 
 Now, let's say you have two classes that need to have a method with this signature:
-```
+```php
 class Class1 implements MyInterface {
   public function doSomething(int $arg1, string $arg2): bool {
     // implementation of doSomething() goes here
