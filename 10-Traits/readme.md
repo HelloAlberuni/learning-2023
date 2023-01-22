@@ -96,3 +96,6 @@ Also, it's important to use traits and classes in their appropriate use cases. T
 
 ### Summary
 - When you use a trait in a class, the methods and properties defined in the trait are essentially copied and pasted into the class, and can be used as if they were part of the class.
+- You cannot create an instance of a trait, and attempting to do so will result in a runtime error.
+- Traits do not have constructors in the traditional sense. But you can define a __construct() method within a trait and you would need to call it in the class that uses the trait manually as like other methods.
+- It's often better to use other methods, such as setup() or init() instead of useing __construct() method in traits
