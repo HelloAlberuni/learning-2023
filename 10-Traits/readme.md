@@ -93,3 +93,6 @@ If you need to create an object that has certain functionality, you should defin
 
 It's worth noting that this is one of the main difference between traits and classes, classes can be instantiated, and traits can't.
 Also, it's important to use traits and classes in their appropriate use cases. Traits should be used to share functionality across classes, and classes should be used to create objects.
+
+### Summary
+- When you use a trait in a class, the methods and properties defined in the trait are essentially copied and pasted into the class, and can be used as if they were part of the class.
