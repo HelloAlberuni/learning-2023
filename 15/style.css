@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    display: flex;
+    background: #ddd
+}
+
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background: #254de4;
+    color: #fff;
+    margin: 10px;
+}
+
+/* Practice based on main axis */
+.flex-container{
+    /* justify-content:space-around; */
+    /* align-items:flex-end; */
+    flex-wrap: wrap;
+}
+
+/* .flex-item:nth-of-type(1){
+    align-self: flex-start;
+}
+
+.flex-item:nth-of-type(2){
+    align-self: center;
+} */
+
+.flex-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Practice based on cross axis */
+/* .flex-container{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+} */
+
+
+/* Summary 
+- justify-content work with the main axis
+- align-items work with the cross axis
+*/
