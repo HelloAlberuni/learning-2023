@@ -1,0 +1,46 @@
+/* The first value before the comma refers the default value */
+.container{
+    display: flex;
+
+    /* flex-direction: row;  */
+    /*row, column, row-reverse, column-reverse*/
+
+    /* flex-wrap: wrap; */
+    /* nowrap, wrap, wrap-reverse */
+
+    flex-flow: row wrap;
+
+    /* justify-content: flex-start;  */
+    /*flex-end, center, space-around, space-between, space-evenly*/
+
+    /* align-items: space-around;  */
+    /*stretch, flex-start, flex-end, center*/
+
+    /* align-content:space-evenly; */
+    /*flex-start, flex-end, center, space-around, space-between,space-evenly*/
+
+    /* height: 1600px; */
+}
+.item{
+    width: 500px;
+}
+.one{
+    height:200px;background-color: rgb(83, 143, 196);
+}
+.two{
+    height:300px;background-color: antiquewhite;
+}
+.three{
+    height:100px;background-color: aquamarine;
+    flex-grow: 1;
+    /* 0, 1 */
+}
+.four{
+    background-color: blanchedalmond;
+    /* order: 3; */
+    /* 0, Integer */
+}
+.five{
+    height:250px;background-color: rgb(120, 114, 106);
+    flex-grow: 1;
+}
