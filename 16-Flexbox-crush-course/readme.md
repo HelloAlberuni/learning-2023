@@ -10,12 +10,12 @@ Defination 2: The Flexible box model is one dimentional layout model that provid
 <b>Flex container:</b>
 - The flex container is the parent element.
 - Properties are:
-    - flex-direction = (row)
-    - flex-wrap = (nowrap)
-    - flex-flow (flex-direction flex-wrap) = shorthand
-    - justify-content = (flex-start)
-    - align-items
-    - align-content
+    - flex-direction:   *row | column | row-reverse | column-reverse
+    - flex-wrap:        *nowrap | wrap | wrap-reverse
+    - flex-flow:        (flex-direction flex-wrap) = shorthand
+    - justify-content:  *flex-start | flex-end | center | space-around | space-between | space-evenly
+    - align-items:      *stretch | flex-start | flex-end | center
+    - align-content:    flex-start | flex-end | center | space-around | space-between | space-evenly
 
 - The property start with "align" will calculate corresponding cross axis. For example align-items property
 
@@ -25,10 +25,13 @@ The term "conform" refers to the way that flex items adjust and align themselves
 <b>Flex items:<b>
 - Flex items are direct childred of flex containers.
 - Properties are:
-    - order
-    - flex-grow
-    - flex-shrink
-    - flex-basis
+    - order:        *0|any_number;
+
+    - flex-grow:    *0|any_number;
+    when we specify 1 as the value in all flex items. The items will fill and grow get the remaing space of the containers equally even the items will have fixed width. If we specify the grow property in only on item, that item will fill the remaining space from the container.
+
+    - flex-shrink: *1|0|any_number;
+    - flex-basis:   
     - align-self
 
 - By default every item orders are 0

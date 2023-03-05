@@ -2,13 +2,14 @@
 .container{
     display: flex;
 
-    /* flex-direction: row;  */
+    flex-direction: row; 
     /*row, column, row-reverse, column-reverse*/
 
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     /* nowrap, wrap, wrap-reverse */
 
-    flex-flow: row wrap;
+    /* flex-flow: row wrap; */
+    /* short hand */
 
     /* justify-content: flex-start;  */
     /*flex-end, center, space-around, space-between, space-evenly*/
@@ -22,7 +23,7 @@
     /* height: 1600px; */
 }
 .item{
-    width: 500px;
+    width: 450px;
 }
 .one{
     height:200px;background-color: rgb(83, 143, 196);
@@ -32,7 +33,7 @@
 }
 .three{
     height:100px;background-color: aquamarine;
-    flex-grow: 1;
+    /* flex-grow: 1; */
     /* 0, 1 */
 }
 .four{
@@ -42,5 +43,5 @@
 }
 .five{
     height:250px;background-color: rgb(120, 114, 106);
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
