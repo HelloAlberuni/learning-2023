@@ -1,0 +1,56 @@
+.wrapper{
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item{
+    flex-grow: 1;
+}
+
+.item-left{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+
+.item-right{
+    display: flex;
+    flex-basis: 100%;
+}
+
+.item-a{
+    background: green;
+}
+.item-b{
+    background-color: antiquewhite;
+}
+.item-c{
+    background-color: rgb(186, 186, 47);
+    
+}
+.item-d{
+    background-color: aqua;
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+    .item-left {
+        flex-direction: row;
+        flex-basis: 60%;
+        flex-wrap: wrap;
+    }
+    .item-a {
+        flex-basis: 50%;
+    }
+    .item-b {
+        flex-basis: 50%;
+    }
+    .item-right {
+        flex-basis: 40%;
+    }
+}

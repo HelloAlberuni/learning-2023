@@ -50,6 +50,8 @@
 
 
 /* Summary 
+- Justify content properly defines how the flex items should be stacked along the main axis
 - justify-content work with the main axis
 - align-items work with the cross axis
+- flex-wrap: = nowrap; by default. That's whay the flex items go outside the container. To fix that we need to use flex-wrap:wrap;
 */

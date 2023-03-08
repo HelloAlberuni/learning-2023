@@ -23,7 +23,8 @@
     /* height: 1600px; */
 }
 .item{
-    width: 450px;
+    flex-basis: 700px;
+    /* flex-shrink: 1; */
 }
 .one{
     height:200px;background-color: rgb(83, 143, 196);

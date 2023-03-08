@@ -31,7 +31,17 @@ The term "conform" refers to the way that flex items adjust and align themselves
     when we specify 1 as the value in all flex items. The items will fill and grow get the remaing space of the containers equally even the items will have fixed width. If we specify the grow property in only on item, that item will fill the remaining space from the container.
 
     - flex-shrink: *1|0|any_number;
-    - flex-basis:   
+    Depends on fex-wrap. Flex wrap should be disabled to use flex shrink.
+    - flex-basis: starting width.
+    https://youtu.be/kRS5ficucNM?t=2275
+    Can be used instead of using min-width.
+    Best for responsiveness.
+    Works with flex grow.
+    Depends on flex-wrap.
+    if there is enough space the starting with will be used otherwise item will be shrinked disregards of the starting with (main-width).
+
+    - flex: 
+    shorthand of flex-grow, flex-shrink and flex-basis
     - align-self
 
 - By default every item orders are 0
