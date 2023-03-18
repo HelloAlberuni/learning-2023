@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+17-react-js-course/myreact/node_modules
+17-react-js-course/myreact/.pnp
+17-react-js-course/myreact/.pnp.js
+
+# testing
+17-react-js-course/myreact/coverage
+
+# production
+17-react-js-course/myreact/build
+
+# misc
+.DS_Store
+17-react-js-course/myreact/.env.local
+17-react-js-course/myreact/.env.development.local
+17-react-js-course/myreact/.env.test.local
+17-react-js-course/myreact/.env.production.local
+
+17-react-js-course/myreact/npm-debug.log*
+17-react-js-course/myreact/yarn-debug.log*
+17-react-js-course/myreact/yarn-error.log*
