@@ -8,3 +8,6 @@ Lesson 4:
 
 - React itself use the ESLint package but the version of that package is not updated.
 - React DOM uses camelCase property naming convention instead of HTML attribute names.
+
+Lesson 5:
+- 
