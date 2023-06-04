@@ -5,3 +5,4 @@
 
 - shouldComponentUpdate(nextProps, nextState) is a lifecycle method which run immediately before each compoent render https://youtu.be/QLxjMwVu0xY?t=3044
 - Tips: Do not pass any parameter with reference function call https://tppr.me/v2pyc
+- Tips: We should not use shouldComponentUpdate() method always for simple components. Because normal / medium component doesn't impact performence issue unless the compoent is very large.
