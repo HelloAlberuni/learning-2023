@@ -1,0 +1,4 @@
+- Tip: In react state management is controlled from one place https://youtu.be/hbLTt10nhOA?t=363
+- There is 2 kind of input element in react: controlled and uncontrolled
+- When we will provide value attribute in input element then it will be controlled element by React
+- When we will not provide value attribute then it will be uncontrolled element and the state will be managed by DOM (browser)
