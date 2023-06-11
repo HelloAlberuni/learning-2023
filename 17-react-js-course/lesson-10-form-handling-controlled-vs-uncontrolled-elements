@@ -2,3 +2,5 @@
 - There is 2 kind of input element in react: controlled and uncontrolled
 - When we will provide value attribute in input element then it will be controlled element by React
 - When we will not provide value attribute then it will be uncontrolled element and the state will be managed by DOM (browser)
+- Tip: Input type=file is stateless, so it is always uncontrolled element
+- Controlled elements are alsways best to handle form in react
