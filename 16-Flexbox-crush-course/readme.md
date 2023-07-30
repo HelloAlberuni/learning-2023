@@ -21,7 +21,7 @@ The flex container is the parent element, and the following properties can be us
 - `flex-flow`: shorthand for flex-direction and flex-wrap
 - `justify-content`: flex-start | flex-end | center | space-around | space-between | space-evenly (default: flex-start)
 - `align-items`: stretch | flex-start | flex-end | center (default: stretch)
-- `align-content`: flex-start | flex-end | center | space-around | space-between | space-evenly
+- `align-content`: flex-start | flex-end | center | space-around | space-between | space-evenly (default: stretch)
 
 Properties starting with "align" calculate the corresponding cross-axis. For example, `align-items` calculates the cross-axis alignment of the flex items.
 
